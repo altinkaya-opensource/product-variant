@@ -29,6 +29,10 @@
         <field name="model">product.attribute</field>
         <field name="inherit_id" ref="product.product_attribute_view_form" />
         <field name="arch" type="xml">
+            <xpath expr="//field[@name='create_variant']" position="before">
+                <field name="code"/>
+            </xpath>
+
             <xpath expr="//group[@name='values_ids']/field[@name='value_ids']/tree/field[@name='name']" position="after">
                 <field name="code" />
             </xpath>
