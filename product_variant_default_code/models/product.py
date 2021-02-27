@@ -28,7 +28,7 @@ def extract_token(s):
 
 
 def sanitize_reference_mask(product, mask):
-    main_lang = product._guess_main_lang()
+    main_lang = 'tr_TR'
     tokens = extract_token(mask)
     attribute_names = set()
     for line in product.attribute_line_ids:
