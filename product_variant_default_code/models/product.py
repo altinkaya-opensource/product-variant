@@ -166,7 +166,7 @@ class ProductProduct(models.Model):
     @api.model
     def create(self, vals):
         product = super(ProductProduct, self).create(vals)
-        if product.reference_mask:
+        if product.reference_mask and not product.manual_code:
             render_default_code(product, product.reference_mask)
         return product
 
