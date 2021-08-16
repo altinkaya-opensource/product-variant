@@ -28,7 +28,7 @@ def extract_token(s):
 
 
 def sanitize_reference_mask(product, mask):
-    main_lang = product._guess_main_lang()
+    main_lang = 'tr_TR'
     tokens = extract_token(mask)
     attribute_names = set()
     for line in product.attribute_line_ids:
@@ -42,7 +42,7 @@ def sanitize_reference_mask(product, mask):
 def get_rendered_default_code(product, mask):
     product_attrs = defaultdict(str)
     reference_mask = ReferenceMask(mask)
-    main_lang = product.product_tmpl_id._guess_main_lang()
+    main_lang = 'tr_TR'
     for value in product.attribute_value_ids:
         attr_name = value.attribute_id.with_context(lang=main_lang).name
         if value.attribute_id.code:
