@@ -31,7 +31,7 @@
                 <group>
 
                     <label for="product_tmpl_id"/>
-                    <div>
+                    <div name="product_tmpl_ids">
                         <field name="product_tmpl_id" domain="[('sale_ok','=',True)]"/>
                     </div>
                     <label for="product_attribute_ids" attrs="{'invisible':[('product_attribute_ids','=',[])]}"/>
