@@ -28,7 +28,7 @@ msgstr ""
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_attribute__code
 msgid "Attribute Code"
-msgstr ""
+msgstr "Nitelik Kodu"
 
 #. module: product_variant_default_code
 #: code:addons/product_variant_default_code/models/product.py:186
