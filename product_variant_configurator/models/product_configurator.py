@@ -267,6 +267,7 @@ class ProductConfigurator(models.AbstractModel):
         if not product:
             product = product_obj.create({
                 'product_tmpl_id': self.product_tmpl_id.id,
+                'name': self.name,
                 'attribute_value_ids': [(
                     6, 0, self.product_attribute_ids.mapped('value_id').ids
                 )],
