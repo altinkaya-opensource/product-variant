@@ -166,8 +166,7 @@ class ProductConfigurator(models.AbstractModel):
                 # If our model has a partner_id field, language is got from it
                 product = self.env['product.product'].with_context(
                     lang=self.partner_id.lang).browse(self.product_id.id)
-            self.name = "[" + product.code + "] " + self._get_product_description(
-                product.product_tmpl_id, product, product.attribute_value_ids)
+            self.name = "[" + product.code or '' + "] " + self._get_product_description(product.product_tmpl_id, product, product.attribute_value_ids) or ''
             self.product_tmpl_id = product.product_tmpl_id.id
             self._set_product_attributes()
 
