@@ -106,6 +106,9 @@ class SaleOrderLine(models.Model):
             self.name = (
                 (self.name or '') + '\n' + self.product_id.description_sale
             )
+        res['domain'].update({
+            'product_id': [('sale_ok', '=', True)]
+        })
         return res
 
     def _update_price_configurator(self):
