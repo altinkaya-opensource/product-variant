@@ -201,10 +201,10 @@ class ProductAttribute(models.Model):
 class ProductAttributeValue(models.Model):
     _inherit = 'product.attribute.value'
 
-    @api.onchange('name')
-    def onchange_name(self):
-        if self.name:
-            self.code = self.name[0:2]
+    # @api.onchange('name')
+    # def onchange_name(self):
+    #     if self.name:
+    #         self.code = self.name[0:2]
 
     code = fields.Char(
         string='Attribute Value Code',
