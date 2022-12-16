@@ -208,7 +208,6 @@ class ProductAttributeValue(models.Model):
 
     code = fields.Char(
         string='Attribute Value Code',
-        default=onchange_name,
         oldname='attribute_code',
     )
 
