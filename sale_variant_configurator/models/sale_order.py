@@ -81,7 +81,7 @@ class SaleOrderLine(models.Model):
         self.tax_id = fpos.map_tax(taxes) if fpos else taxes
         product_tmpl = self.product_tmpl_id.with_context(
             lang=self.order_id.partner_id.lang,
-            partner=self.order_id.partner_id.id,
+            partner=self.order_id.partner_id,
             quantity=self.product_uom_qty,
             date=self.order_id.date_order,
             pricelist=self.order_id.pricelist_id.id,
@@ -125,7 +125,7 @@ class SaleOrderLine(models.Model):
             return
         product_tmpl = self.product_tmpl_id.with_context(
             lang=self.order_id.partner_id.lang,
-            partner=self.order_id.partner_id.id,
+            partner=self.order_id.partner_id,
             quantity=self.product_uom_qty,
             date_order=self.order_id.date_order,
             pricelist=self.order_id.pricelist_id.id,
