@@ -125,15 +125,15 @@ class ProductTemplate(models.Model):
     def write(self, vals):
         with_variants = self.env['product.template']
         product_obj = self.env['product.product']
-        if ('reference_mask' in vals and not vals['reference_mask'] or not
-                self.user_has_groups(
-                    'product_variant_default_code.group_product_default_code'
-                )):
-            with_variants = self.filtered("attribute_line_ids")
-            for template in with_variants:
-                new_dict = dict(vals)
-                new_dict['reference_mask'] = template._get_default_mask()
-                super(ProductTemplate, template).write(new_dict)
+        # if ('reference_mask' in vals and not vals['reference_mask'] or not
+        #         self.user_has_groups(
+        #             'product_variant_default_code.group_product_default_code'
+        #         )):
+        #     with_variants = self.filtered("attribute_line_ids")
+        #     for template in with_variants:
+        #         new_dict = dict(vals)
+        #         new_dict['reference_mask'] = template._get_default_mask()
+        #         super(ProductTemplate, template).write(new_dict)
         super(ProductTemplate, self - with_variants).write(vals)
         if vals.get('reference_mask'):
             cond = [('product_tmpl_id', '=', self.id),
@@ -166,7 +166,7 @@ class ProductProduct(models.Model):
     @api.model
     def create(self, vals):
         product = super(ProductProduct, self).create(vals)
-        if product.reference_mask:
+        if product.reference_mask and not product.manual_code:
             render_default_code(product, product.reference_mask)
         return product
 
@@ -201,14 +201,13 @@ class ProductAttribute(models.Model):
 class ProductAttributeValue(models.Model):
     _inherit = 'product.attribute.value'
 
-    @api.onchange('name')
-    def onchange_name(self):
-        if self.name:
-            self.code = self.name[0:2]
+    # @api.onchange('name')
+    # def onchange_name(self):
+    #     if self.name:
+    #         self.code = self.name[0:2]
 
     code = fields.Char(
         string='Attribute Value Code',
-        default=onchange_name,
         oldname='attribute_code',
     )
 

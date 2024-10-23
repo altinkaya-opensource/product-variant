@@ -48,6 +48,9 @@ class ProductConfiguratorAttribute(models.Model):
             attribute = record.product_tmpl_id.attribute_line_ids.filtered(
                 lambda x: x.attribute_id == record.attribute_id)
             record.possible_value_ids = attribute.value_ids.sorted()
+            # Uzunluk niteliği olan ürünlerde attribute filtrelemesi yapmak istemiyoruz.
+            if attribute.attribute_id.id == 28:
+                record.possible_value_ids |= attribute.attribute_id.value_ids
 
     @api.depends('value_id')
     def _compute_price_extra(self):
