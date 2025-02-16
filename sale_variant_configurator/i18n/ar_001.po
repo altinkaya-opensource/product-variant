@@ -18,27 +18,27 @@ msgstr ""
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__can_create_product
 msgid "Can Create Product"
-msgstr ""
+msgstr "يمكن إنشاء المنتج"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__create_product_variant
 msgid "Create product now!"
-msgstr ""
+msgstr "إنشاء المنتج الآن!"
 
 #. module: sale_variant_configurator
 #: model:ir.model.constraint,message:sale_variant_configurator.constraint_sale_order_line_non_accountable_null_fields
 msgid "Forbidden values on non-accountable sale order line"
-msgstr ""
+msgstr "القيم المحظورة على خط أوامر البيع غير القابلة للمحاسبة"
 
 #. module: sale_variant_configurator
 #: model:ir.model.constraint,message:sale_variant_configurator.constraint_sale_order_line_accountable_required_fields
 msgid "Missing required fields on accountable sale order line."
-msgstr ""
+msgstr "الحقول الناقصة المطلوبة في سطر أوامر البيع القابلة للمحاسبة."
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__price_extra
 msgid "Price Extra"
-msgstr ""
+msgstr "السعر الإضافي"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,help:sale_variant_configurator.field_sale_order_line__price_extra
@@ -46,45 +46,47 @@ msgid ""
 "Price Extra: Extra price for the variant with the currently selected "
 "attributes values on sale price. eg. 200 price extra, 1000 + 200 = 1200."
 msgstr ""
+"السعر الإضافي: سعر إضافي للمتغير بقيم السمات المحددة حاليًا على سعر البيع. "
+"على سبيل المثال. 200 سعر إضافي، 1000 + 200 = 1200."
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_id
 msgid "Product"
-msgstr ""
+msgstr "المنتج"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_id_configurator_domain
 msgid "Product Id Configurator Domain"
-msgstr ""
+msgstr "مجال تكوين معرّف المنتج"
 
 #. module: sale_variant_configurator
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_order_form
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_order_line_tree
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_sales_order_line_filter
 msgid "Product Template"
-msgstr ""
+msgstr "نموذج المنتج"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_tmpl_id
 msgid "Product Template (no related)"
-msgstr ""
+msgstr "قالب المنتج (لا توجد صلة)"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_attribute_ids
 msgid "Product attributes"
-msgstr ""
+msgstr "سمات المنتج"
 
 #. module: sale_variant_configurator
 #: model:ir.model,name:sale_variant_configurator.model_sale_order
 msgid "Sales Order"
-msgstr ""
+msgstr "أمر البيع"
 
 #. module: sale_variant_configurator
 #: model:ir.model,name:sale_variant_configurator.model_sale_order_line
 msgid "Sales Order Line"
-msgstr ""
+msgstr "بند أمر المبيعات"
 
 #. module: sale_variant_configurator
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_sales_order_line_filter
 msgid "Template"
-msgstr ""
+msgstr "القالب"

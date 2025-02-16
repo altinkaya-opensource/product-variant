@@ -19,13 +19,12 @@ msgstr ""
 #: model:ir.model.fields,help:product_variant_default_code.field_product_product__code_prefix
 #: model:ir.model.fields,help:product_variant_default_code.field_product_template__code_prefix
 msgid "Add prefix to product variant reference (default code)"
-msgstr ""
-"Ajouter un préfixe à la référence de la variante de produit (default code)"
+msgstr "إضافة بادئة إلى مرجع متغير المنتج (الرمز الافتراضي)"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_attribute__code
 msgid "Attribute Code"
-msgstr "Code de l'attribut"
+msgstr "رمز السمة"
 
 #. module: product_variant_default_code
 #. odoo-python
@@ -33,22 +32,22 @@ msgstr "Code de l'attribut"
 #: model:ir.model.constraint,message:product_variant_default_code.constraint_product_attribute_number_uniq
 #, python-format
 msgid "Attribute Name must be unique!"
-msgstr "Le nom de l'attribut doit être unique !"
+msgstr "يجب أن يكون اسم السمة فريدًا!"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_attribute_value
 msgid "Attribute Value"
-msgstr "Valeur de la caractéristique"
+msgstr "قيمة الخاصية"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_attribute_value__code
 msgid "Attribute Value Code"
-msgstr "Code valeur de l'attribut"
+msgstr "رمز قيمة السمة"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_res_config_settings
 msgid "Config Settings"
-msgstr "Paramètres de regroupement des achats"
+msgstr "تهيئة الإعدادات "
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.view_general_configuration
@@ -57,78 +56,74 @@ msgid ""
 "                                Check this if you want to use Manual Mask.\n"
 "                                Default: Automask"
 msgstr ""
-"Définit la manière dont vous souhaitez gérer la variante par défaut.\n"
-"                                Cochez cette case si vous souhaitez utiliser le masque manuel.\n"
-"                                Défaut : Masque automatique"
+"يحدد كيف تريد إدارة المتغير الافتراضي.\n"
+"                                حدد هذا إذا كنت تريد استخدام القناع اليدوي.\n"
+"                                افتراضي القناع التلقائي"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.view_general_configuration
 msgid ""
 "Defines the variant \"Reference Prefix\" as the default reference "
 "(default_code) of the variant."
-msgstr ""
-"Définit la variante \"Reference Prefix\" comme la référence par défaut "
-"(default_code) de la variante."
+msgstr "يحدد المتغير \"البادئة المرجعية\" كمرجع افتراضي (default_code) للمتغير."
 
 #. module: product_variant_default_code
 #. odoo-python
 #: code:addons/product_variant_default_code/models/product.py:0
 #, python-format
 msgid "Found unrecognized attribute name in \"Variant Reference Mask\""
-msgstr ""
-"Nom d'attribut non reconnu trouvé dans \"Masque de référence de la "
-"variante\""
+msgstr "العثور على اسم سمة غير معروف في \"قناع مرجعي متغير\""
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__default_code
 msgid "Internal Reference"
-msgstr "Référence interne"
+msgstr "مرجع داخلي"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__manual_code
 msgid "Manual Reference"
-msgstr "Référence manuelle"
+msgstr "الدليل المرجعي"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_template
 msgid "Product"
-msgstr "Produit"
+msgstr "المنتج"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_attribute
 msgid "Product Attribute"
-msgstr "Attribut de l'article"
+msgstr "خاصية المنتج"
 
 #. module: product_variant_default_code
 #: model:res.groups,name:product_variant_default_code.group_product_default_code_manual_mask
 msgid "Product Default Code Behavior"
-msgstr "Comportement du code par défaut du produit"
+msgstr "سلوك الرمز الافتراضي للمنتج"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_res_config_settings__group_product_default_code_manual_mask
 msgid "Product Default Code Manual Mask"
-msgstr "Produit Code par défaut Masque manuel"
+msgstr "القناع اليدوي للرمز الافتراضي للمنتج"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_product
 msgid "Product Variant"
-msgstr "Variante de produit"
+msgstr "متغير المنتج "
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.view_general_configuration
 msgid "Product Variants"
-msgstr "Attribut de l'article"
+msgstr "المنتج"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__code_prefix
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_template__code_prefix
 msgid "Reference Prefix"
-msgstr "Préfixe de la référence"
+msgstr "البادئة المرجعية"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_res_config_settings__prefix_as_default_code
 msgid "Reference Prefix as default Reference"
-msgstr "Préfixe de référence comme référence par défaut"
+msgstr "البادئة المرجعية كمرجع افتراضي"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,help:product_variant_default_code.field_product_product__reference_mask
@@ -146,17 +141,17 @@ msgid ""
 " `fancyA/l~r~l` (for variant with Color \"Red\" and Size \"L\")  `fancyA/x~y~x` (for variant with Color \"Yellow\" and Size \"XL\")\n"
 "Note: make sure characters \"[,]\" do not appear in your attribute name"
 msgstr ""
-"Masque de référence pour construire les références internes des variantes génénées depuis ce modèle.\n"
-"Exemple:\n"
-"Un produit nommé ABC avec 2 attributs : Taille et Couleur :\n"
-"Produit: ABC\n"
-"Couleur: Rouge(r), Jaune(j), Noir(n)  #Rouge, Jaune, Noir sont les valeurs d'attributes, `r`, `j`, `n` sont les codes correspondants\n"
-"Taille: L (l), XL(x)\n"
-"Quand vous mettez en place un masque de référence de la variante `[Couleur]-[Taille]`, le code par défaut de la variante sera quelque chose comme `r-l` `n-l` `r-x` ...\n"
-"Si vous préférez, vous pouvez aussi avoir le nom de l'attribut qui apparait plusieurs fois dans le masque. Comme,`fancyA/[Taille]~[Couleur]~[Taille]`\n"
-" Quand il est enregistré, le code par défaut sur la variante sera quelque chose comme \n"
-" `fancyA/l~r~l` (pour la variante avec Couleur \"Rouge\" et Taille \"L\")  `fancyA/x~y~x` (pour la variante avec Couleur \"Jaune\" et Taille\"XL\")\n"
-"Note : assurez-vous que les caractères \"[,]\" n'apparaissent pas dans le nom de l'attribut"
+"قناع مرجعي لبناء مراجع داخلية لمتغير تم إنشاؤه من هذا القالب.\n"
+"مثال:\n"
+"منتج باسم ABC مع سمتين: الحجم واللون:\n"
+"المنتج: ABC\n"
+"اللون: أحمر (ص)، أصفر (ص)، أسود (ب) # الأحمر، الأصفر، الأسود هي قيمة السمة، و\"ص\"، \"ص\"، \"ب\" هي الرمز المقابل\n"
+"المقاس L (ل)، XL (س)\n"
+"عند ضبط القناع المرجعي للمتغير على 'اللون]-[الحجم]، سيكون الرمز الافتراضي على المتغيرات مثل 'r-l' 'b-l' 'r-x' ...\n"
+"إذا أردت، يمكنك حتى أن تجعل اسم السمة يظهر أكثر من مرة في القناع. مثل، 'fancyA/[الحجم] ~ [اللون] ~ [الحجم]\n"
+" عند الحفظ، سيكون الرمز الافتراضي في المتغيرات شيئًا مثل \n"
+" \"fancyA/[l]/~~r~l\" (للمتغير ذي اللون \"أحمر\" والمقاس \"L\") \"fancyA/x~~y~x\" (للمتغير ذي اللون \"أصفر\" والمقاس \"XL\")\n"
+"ملاحظة: تأكد من عدم ظهور الحرفين \"[,]\" في اسم السمة"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,help:product_variant_default_code.field_res_config_settings__group_product_default_code_manual_mask
@@ -164,22 +159,22 @@ msgid ""
 "Set behaviour of codes. Default: Automask (depends on variant use: see "
 "Sales/Purchases configuration)"
 msgstr ""
-"Définir le comportement des codes. Par défaut : Automask (dépend de "
-"l'utilisation de la variante : voir la configuration Ventes/Achats)"
+"ضبط سلوك الرموز. افتراضي: قناع تلقائي (يعتمد على الاستخدام المتغير: انظر "
+"تكوين المبيعات/المشتريات)"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__variant_default_code_error
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_template__variant_default_code_error
 msgid "Variant Default Code Error"
-msgstr "Variante Code Défaut Erreur"
+msgstr "خطأ الرمز الافتراضي المتغير"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__reference_mask
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_template__reference_mask
 msgid "Variant reference mask"
-msgstr "Masque de référence de la variante"
+msgstr "القناع المرجعي المتغير"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.product_template_only_form_view
 msgid "[attribute3]-[attribute1]"
-msgstr "[attribut3]-[attribut1]"
+msgstr "[السمة 3]-[السمة 1]"

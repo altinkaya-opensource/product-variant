@@ -20,12 +20,13 @@ msgstr ""
 #: model:ir.model.fields,help:product_variant_default_code.field_product_template__code_prefix
 msgid "Add prefix to product variant reference (default code)"
 msgstr ""
-"Ajouter un préfixe à la référence de la variante de produit (default code)"
+"Добавяне на префикс към препратка към вариант на продукт (код по "
+"подразбиране)"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_attribute__code
 msgid "Attribute Code"
-msgstr "Code de l'attribut"
+msgstr "Код на атрибута"
 
 #. module: product_variant_default_code
 #. odoo-python
@@ -33,22 +34,22 @@ msgstr "Code de l'attribut"
 #: model:ir.model.constraint,message:product_variant_default_code.constraint_product_attribute_number_uniq
 #, python-format
 msgid "Attribute Name must be unique!"
-msgstr "Le nom de l'attribut doit être unique !"
+msgstr "Името на атрибута трябва да е уникално!"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_attribute_value
 msgid "Attribute Value"
-msgstr "Valeur de la caractéristique"
+msgstr "Стойност на атрибут"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_attribute_value__code
 msgid "Attribute Value Code"
-msgstr "Code valeur de l'attribut"
+msgstr "Код на стойността на атрибута"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_res_config_settings
 msgid "Config Settings"
-msgstr "Paramètres de regroupement des achats"
+msgstr "Настройки"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.view_general_configuration
@@ -57,9 +58,9 @@ msgid ""
 "                                Check this if you want to use Manual Mask.\n"
 "                                Default: Automask"
 msgstr ""
-"Définit la manière dont vous souhaitez gérer la variante par défaut.\n"
-"                                Cochez cette case si vous souhaitez utiliser le masque manuel.\n"
-"                                Défaut : Masque automatique"
+"Определя начина, по който искате да управлявате подразбиращия се вариант.\n"
+"                                Поставете тази отметка, ако искате да използвате ръчна маска.\n"
+"                                По подразбиране: Автомаска"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.view_general_configuration
@@ -67,68 +68,66 @@ msgid ""
 "Defines the variant \"Reference Prefix\" as the default reference "
 "(default_code) of the variant."
 msgstr ""
-"Définit la variante \"Reference Prefix\" comme la référence par défaut "
-"(default_code) de la variante."
+"Дефинира варианта \"Reference Prefix\" като референция по подразбиране "
+"(default_code) на варианта."
 
 #. module: product_variant_default_code
 #. odoo-python
 #: code:addons/product_variant_default_code/models/product.py:0
 #, python-format
 msgid "Found unrecognized attribute name in \"Variant Reference Mask\""
-msgstr ""
-"Nom d'attribut non reconnu trouvé dans \"Masque de référence de la "
-"variante\""
+msgstr "Открито неразпознато име на атрибут в \"Референтна маска на вариант\""
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__default_code
 msgid "Internal Reference"
-msgstr "Référence interne"
+msgstr "Вътрешен Идентификатор"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__manual_code
 msgid "Manual Reference"
-msgstr "Référence manuelle"
+msgstr "Препратка към ръководството"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_template
 msgid "Product"
-msgstr "Produit"
+msgstr "Продукт"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_attribute
 msgid "Product Attribute"
-msgstr "Attribut de l'article"
+msgstr "Продуктови атрибути"
 
 #. module: product_variant_default_code
 #: model:res.groups,name:product_variant_default_code.group_product_default_code_manual_mask
 msgid "Product Default Code Behavior"
-msgstr "Comportement du code par défaut du produit"
+msgstr "Поведение на кода по подразбиране на продукта"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_res_config_settings__group_product_default_code_manual_mask
 msgid "Product Default Code Manual Mask"
-msgstr "Produit Code par défaut Masque manuel"
+msgstr "Код по подразбиране на продукта Ръчна маска"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_product
 msgid "Product Variant"
-msgstr "Variante de produit"
+msgstr "Продукт"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.view_general_configuration
 msgid "Product Variants"
-msgstr "Attribut de l'article"
+msgstr "Варианти на продукта"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__code_prefix
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_template__code_prefix
 msgid "Reference Prefix"
-msgstr "Préfixe de la référence"
+msgstr "Референтен префикс"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_res_config_settings__prefix_as_default_code
 msgid "Reference Prefix as default Reference"
-msgstr "Préfixe de référence comme référence par défaut"
+msgstr "Референтен префикс като референция по подразбиране"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,help:product_variant_default_code.field_product_product__reference_mask
@@ -146,17 +145,17 @@ msgid ""
 " `fancyA/l~r~l` (for variant with Color \"Red\" and Size \"L\")  `fancyA/x~y~x` (for variant with Color \"Yellow\" and Size \"XL\")\n"
 "Note: make sure characters \"[,]\" do not appear in your attribute name"
 msgstr ""
-"Masque de référence pour construire les références internes des variantes génénées depuis ce modèle.\n"
-"Exemple:\n"
-"Un produit nommé ABC avec 2 attributs : Taille et Couleur :\n"
-"Produit: ABC\n"
-"Couleur: Rouge(r), Jaune(j), Noir(n)  #Rouge, Jaune, Noir sont les valeurs d'attributes, `r`, `j`, `n` sont les codes correspondants\n"
-"Taille: L (l), XL(x)\n"
-"Quand vous mettez en place un masque de référence de la variante `[Couleur]-[Taille]`, le code par défaut de la variante sera quelque chose comme `r-l` `n-l` `r-x` ...\n"
-"Si vous préférez, vous pouvez aussi avoir le nom de l'attribut qui apparait plusieurs fois dans le masque. Comme,`fancyA/[Taille]~[Couleur]~[Taille]`\n"
-" Quand il est enregistré, le code par défaut sur la variante sera quelque chose comme \n"
-" `fancyA/l~r~l` (pour la variante avec Couleur \"Rouge\" et Taille \"L\")  `fancyA/x~y~x` (pour la variante avec Couleur \"Jaune\" et Taille\"XL\")\n"
-"Note : assurez-vous que les caractères \"[,]\" n'apparaissent pas dans le nom de l'attribut"
+"Референтна маска за изграждане на вътрешни референции на вариант, генериран от този шаблон.\n"
+"Пример:\n"
+"Продукт с име ABC с 2 атрибута: Размер и цвят:\n"
+"Продукт: ABC\n"
+"Цвят: Червен(r), Жълт(y), Черен(b) #Червен, Жълт, Черен са стойностите на атрибута, `r`, `y`, `b` са съответните кодове\n"
+"Размер: L (l), XL (x)\n"
+"При задаване на референтна маска на варианта на `[Color]-[Size]`, кодът по подразбиране на вариантите ще бъде нещо като `r-l` `b-l` `r-x` ...\n"
+"Ако желаете, можете дори да накарате името на атрибута да се появи повече от веднъж в маската. Например, `fancyA/[Size]~[Color]~[Size]`\n"
+" Когато бъде запазен, кодът по подразбиране на вариантите ще бъде нещо като \n"
+" `fancyA/l~r~l` (за вариант с цвят \"Червено\" и размер \"L\") `fancyA/x~y~x` (за вариант с цвят \"Жълто\" и размер \"XL\")\n"
+"Забележка: уверете се, че символите \"[,]\" не се появяват в името на атрибута."
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,help:product_variant_default_code.field_res_config_settings__group_product_default_code_manual_mask
@@ -164,22 +163,22 @@ msgid ""
 "Set behaviour of codes. Default: Automask (depends on variant use: see "
 "Sales/Purchases configuration)"
 msgstr ""
-"Définir le comportement des codes. Par défaut : Automask (dépend de "
-"l'utilisation de la variante : voir la configuration Ventes/Achats)"
+"Определете поведението на кодовете. По подразбиране: (зависи от употребата "
+"на варианта: вижте конфигурацията на Продажби/Покупки)"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__variant_default_code_error
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_template__variant_default_code_error
 msgid "Variant Default Code Error"
-msgstr "Variante Code Défaut Erreur"
+msgstr "Грешка на кода по подразбиране на варианта"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__reference_mask
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_template__reference_mask
 msgid "Variant reference mask"
-msgstr "Masque de référence de la variante"
+msgstr "Референтна маска на варианта"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.product_template_only_form_view
 msgid "[attribute3]-[attribute1]"
-msgstr "[attribut3]-[attribut1]"
+msgstr "[атрибут3]-[атрибут1]"

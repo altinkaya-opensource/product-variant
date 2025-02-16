@@ -18,14 +18,14 @@ msgstr ""
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_variant_count
 msgid "# Product Variants"
-msgstr ""
+msgstr "# 产品型号"
 
 #. module: product_variant_configurator
 #: model_terms:ir.ui.view,arch_db:product_variant_configurator.product_attribute_view_form
 msgid ""
 "<strong>Info:</strong> You can now manage the variant creation from the "
 "Product Template level"
-msgstr ""
+msgstr "<strong>信息</strong>您现在可以从产品模板级别管理变量创建"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__description_sale
@@ -33,7 +33,7 @@ msgid ""
 "A description of the Product that you want to communicate to your customers."
 " This description will be copied to every Sales Order, Delivery Order and "
 "Customer Invoice/Credit Note"
-msgstr ""
+msgstr "您希望传达给客户的产品描述。该说明将被复制到每份销售订单、交货订单和客户发票/赊账单上。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__detailed_type
@@ -42,37 +42,40 @@ msgid ""
 "A consumable product is a product for which stock is not managed.\n"
 "A service is a non-material product you provide."
 msgstr ""
+"可储存产品是指您管理库存的产品。必须安装库存应用程序。\n"
+"消耗品是不需要管理库存的产品。\n"
+"服务是您提供的非物质产品。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__attribute_id
 msgid "Attribute"
-msgstr ""
+msgstr "属性"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__price_extra
 msgid "Attribute Price Extra"
-msgstr ""
+msgstr "属性 额外价格"
 
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_attribute_value
 msgid "Attribute Value"
-msgstr ""
+msgstr "属性值"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__can_create_product
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__can_create_product
 msgid "Can Create Product"
-msgstr ""
+msgstr "可以创建产品"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__purchase_ok
 msgid "Can be Purchased"
-msgstr ""
+msgstr "可以购买"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__sale_ok
 msgid "Can be Sold"
-msgstr ""
+msgstr "可销售"
 
 #. module: product_variant_configurator
 #. odoo-python
@@ -80,7 +83,7 @@ msgstr ""
 #: code:addons/product_variant_configurator/models/product_template.py:0
 #, python-format
 msgid "Change warning!"
-msgstr ""
+msgstr "变更警告！"
 
 #. module: product_variant_configurator
 #. odoo-python
@@ -88,105 +91,105 @@ msgstr ""
 #: code:addons/product_variant_configurator/models/product_template.py:0
 #, python-format
 msgid "Changing this parameter may cause automatic variants creation"
-msgstr ""
+msgstr "更改此参数可能导致自动创建变体"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__color
 msgid "Color Index"
-msgstr ""
+msgstr "颜色索引"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__company_id
 msgid "Company"
-msgstr ""
+msgstr "公司简介"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__cost_currency_id
 msgid "Cost Currency"
-msgstr ""
+msgstr "成本货币"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__origin_country_id
 msgid "Country of Origin"
-msgstr ""
+msgstr "原产国"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__origin_country_id
 msgid "Country of origin of the product i.e. product 'made in ____'."
-msgstr ""
+msgstr "产品的原产国，即产品 \"made in ____\"。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__create_product_variant
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__create_product_variant
 msgid "Create product now!"
-msgstr ""
+msgstr "立即创建产品！"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "创建者"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__create_date
 msgid "Created on"
-msgstr ""
+msgstr "创建于"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "货币"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__uom_id
 msgid "Default unit of measure used for all stock operations."
-msgstr ""
+msgstr "所有库存业务使用的默认计量单位。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__uom_po_id
 msgid ""
 "Default unit of measure used for purchase orders. It must be in the same "
 "category as the default unit of measure."
-msgstr ""
+msgstr "采购订单使用的默认计量单位。必须与默认计量单位属于同一类别。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__description
 msgid "Description"
-msgstr ""
+msgstr "翻译内容"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "显示名称"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields.selection,name:product_variant_configurator.selection__product_template__no_create_variants__yes
 msgid "Don't create them automatically"
-msgstr ""
+msgstr "不要自动创建"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_category__no_create_variants
 msgid "Don't create variants automatically"
-msgstr ""
+msgstr "不要自动创建变量"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__categ_ids
 msgid "Extra Categories"
-msgstr ""
+msgstr "额外类别"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__priority
 msgid "Favorite"
-msgstr ""
+msgstr "收藏本站"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__sequence
 msgid "Gives the sequence order when displaying a product list"
-msgstr ""
+msgstr "在显示产品列表时给出顺序"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__hs_code_id
 msgid "H.S. Code"
-msgstr ""
+msgstr "H.S. 代码"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__hs_code_id
@@ -195,118 +198,119 @@ msgid ""
 "Organisation, see http://www.wcoomd.org/. You can leave this field empty and"
 " configure the H.S. code on the product category."
 msgstr ""
+"统一系统代码。术语可从世界海关组织获得，请参阅 http://www.wcoomd.org/。您可以将此字段留空，并在产品类别上配置 H.S. 代码。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__has_configurable_attributes
 msgid "Is a configurable product"
-msgstr ""
+msgstr "是一种可配置的产品"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "最后修改日期"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "最后更新"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "最后更新日期"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__name
 msgid "Name"
-msgstr ""
+msgstr "公司名称"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__owner_id
 msgid "Owner"
-msgstr ""
+msgstr "所有者"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__owner_model
 msgid "Owner Model"
-msgstr ""
+msgstr "所有者模式"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__possible_value_ids
 msgid "Possible Value"
-msgstr ""
+msgstr "可能的价值"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__price_extra
 msgid "Price Extra"
-msgstr ""
+msgstr "额外价格"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_configurator__price_extra
 msgid ""
 "Price Extra: Extra price for the variant with the currently selected "
 "attributes values on sale price. eg. 200 price extra, 1000 + 200 = 1200."
-msgstr ""
+msgstr "额外价格：变体的额外价格，当前所选属性值为销售价格。例如，额外价格 200，1000 + 200 = 1200。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_configurator_attribute__price_extra
 msgid ""
 "Price Extra: Extra price for the variant with this attribute value on sale "
 "price. eg. 200 price extra, 1000 + 200 = 1200."
-msgstr ""
+msgstr "额外价格：例如：额外价格 200，1000 + 200 = 1200。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__list_price
 msgid "Price at which the product is sold to customers."
-msgstr ""
+msgstr "产品销售给客户的价格。"
 
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_pricelist
 msgid "Pricelist"
-msgstr ""
+msgstr "价格表"
 
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_template
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_variant_id
 msgid "Product"
-msgstr ""
+msgstr "产品"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__attribute_line_ids
 msgid "Product Attributes"
-msgstr ""
+msgstr "产品属性"
 
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_category
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__categ_id
 msgid "Product Category"
-msgstr ""
+msgstr "产品类别"
 
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_configurator
 msgid "Product Configurator"
-msgstr ""
+msgstr "产品配置器"
 
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_configurator_attribute
 msgid "Product Configurator Attribute"
-msgstr ""
+msgstr "产品配置器属性"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__product_id_configurator_domain
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_id_configurator_domain
 msgid "Product Id Configurator Domain"
-msgstr ""
+msgstr "产品编号配置器域"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_tag_ids
 msgid "Product Tags"
-msgstr ""
+msgstr "产品标签"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__product_tmpl_id
@@ -314,111 +318,111 @@ msgstr ""
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_tmpl_id
 #: model_terms:ir.ui.view,arch_db:product_variant_configurator.product_variants_view
 msgid "Product Template"
-msgstr ""
+msgstr "产品模板"
 
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_template_attribute_line
 msgid "Product Template Attribute Line"
-msgstr ""
+msgstr "产品模板属性行"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_tooltip
 msgid "Product Tooltip"
-msgstr ""
+msgstr "产品工具提示"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__detailed_type
 msgid "Product Type"
-msgstr ""
+msgstr "产品类型"
 
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_product
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__product_id
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_id
 msgid "Product Variant"
-msgstr ""
+msgstr "产品种类"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__product_attribute_ids
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_attribute_ids
 msgid "Product attributes"
-msgstr ""
+msgstr "产品属性"
 
 #. module: product_variant_configurator
 #. odoo-python
 #: code:addons/product_variant_configurator/models/product_configurator.py:0
 #, python-format
 msgid "Product not created!"
-msgstr ""
+msgstr "未创建产品！"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_variant_ids
 msgid "Products"
-msgstr ""
+msgstr "产品"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__description_purchase
 msgid "Purchase Description"
-msgstr ""
+msgstr "采购说明"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__uom_po_id
 msgid "Purchase UoM"
-msgstr ""
+msgstr "购买 UoM"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_template_attribute_line__required
 msgid "Required"
-msgstr ""
+msgstr "要求"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__description_sale
 msgid "Sales Description"
-msgstr ""
+msgstr "销售描述"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__list_price
 msgid "Sales Price"
-msgstr ""
+msgstr "销售价格"
 
 #. module: product_variant_configurator
 #: model_terms:ir.ui.view,arch_db:product_variant_configurator.product_variants_view
 msgid "Select a template for a variant. Keep empty for a new full product."
-msgstr ""
+msgstr "为变体选择模板。保持空白，以获得新的完整产品。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "序列"
 
 #. module: product_variant_configurator
 #: model:ir.model.constraint,message:product_variant_configurator.constraint_product_template_attribute_line_product_attribute_uniq
 msgid "The attribute already exists for this product"
-msgstr ""
+msgstr "该产品的属性已经存在"
 
 #. module: product_variant_configurator
 #. odoo-python
 #: code:addons/product_variant_configurator/models/product_product.py:0
 #, python-format
 msgid "There's another product with the same attributes."
-msgstr ""
+msgstr "还有另一种具有相同属性的产品。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_category__no_create_variants
 msgid ""
 "This check disables the automatic creation of product variants for all the "
 "products of this category."
-msgstr ""
+msgstr "该检查禁止为该类别的所有产品自动创建产品变体。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__price_extra
 msgid "This is the sum of the extra price of all attributes"
-msgstr ""
+msgstr "这是所有属性的额外价格总和"
 
 #. module: product_variant_configurator
 #: model_terms:ir.ui.view,arch_db:product_variant_configurator.product_variants_view_2
 msgid "This product already exists."
-msgstr ""
+msgstr "该产品已经存在。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__no_create_variants
@@ -426,93 +430,93 @@ msgstr ""
 msgid ""
 "This selection defines if variants for all attribute combinations are going "
 "to be created automatically at saving time."
-msgstr ""
+msgstr "该选择定义了是否在保存时自动创建所有属性组合的变体。"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__type
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__uom_id
 msgid "Unit of Measure"
-msgstr ""
+msgstr "计量单位"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__uom_name
 msgid "Unit of Measure Name"
-msgstr ""
+msgstr "计量单位名称"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields.selection,name:product_variant_configurator.selection__product_template__no_create_variants__no
 msgid "Use Odoo's default variant management"
-msgstr ""
+msgstr "使用 Odoo 的默认变量管理"
 
 #. module: product_variant_configurator
 #: model:res.groups,name:product_variant_configurator.group_product_variant_extended_description
 msgid "Use extended description when having product attributes"
-msgstr ""
+msgstr "具有产品属性时使用扩展描述"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields.selection,name:product_variant_configurator.selection__product_template__no_create_variants__empty
 msgid "Use the category value"
-msgstr ""
+msgstr "使用类别值"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__valid_product_template_attribute_line_ids
 msgid "Valid Product Attribute Lines"
-msgstr ""
+msgstr "有效的产品属性行"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__value_id
 msgid "Value"
-msgstr ""
+msgstr "价值"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__price_extra
 msgid "Variant Price Extra"
-msgstr ""
+msgstr "额外变体价格"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__variant_seller_ids
 msgid "Variant Seller"
-msgstr ""
+msgstr "变体卖家"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__no_create_variants
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_template__no_create_variants
 msgid "Variant creation"
-msgstr ""
+msgstr "创建变量"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__seller_ids
 msgid "Vendors"
-msgstr ""
+msgstr "供应商"
 
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_ir_ui_view
 msgid "View"
-msgstr ""
+msgstr "查看"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__volume_uom_id
 msgid "Volume Unit of Measure"
-msgstr ""
+msgstr "体积计量单位"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__volume_uom_name
 msgid "Volume unit of measure label"
-msgstr ""
+msgstr "体积计量单位标签"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__weight_uom_id
 msgid "Weight Unit of Measure"
-msgstr ""
+msgstr "重量计量单位"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__weight_uom_name
 msgid "Weight unit of measure label"
-msgstr ""
+msgstr "重量计量单位标签"
 
 #. module: product_variant_configurator
 #. odoo-python
@@ -522,3 +526,5 @@ msgid ""
 "You have to fill the following attributes:\n"
 "%s"
 msgstr ""
+"您必须填写以下属性：\n"
+"%s"

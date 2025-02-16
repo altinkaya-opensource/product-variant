@@ -1,59 +1,90 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * sale_variant_configurator
+# 	* sale_variant_configurator
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-04 12:43+0000\n"
-"PO-Revision-Date: 2017-12-04 12:43+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: Turkish (https://www.transifex.com/oca/teams/23907/tr/)\n"
-"Language: tr\n"
+"POT-Creation-Date: 2025-02-14 19:19+0000\n"
+"PO-Revision-Date: 2025-02-14 19:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: \n"
+
+#. module: sale_variant_configurator
+#: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__can_create_product
+msgid "Can Create Product"
+msgstr "Ürün Oluşturabilir"
+
+#. module: sale_variant_configurator
+#: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__create_product_variant
+msgid "Create product now!"
+msgstr "Şimdi ürün oluşturun!"
 
 #. module: sale_variant_configurator
 #: model:ir.model.constraint,message:sale_variant_configurator.constraint_sale_order_line_non_accountable_null_fields
 msgid "Forbidden values on non-accountable sale order line"
-msgstr ""
+msgstr "Hesaplanamayan satış siparişi satırında yasak değerler"
 
 #. module: sale_variant_configurator
 #: model:ir.model.constraint,message:sale_variant_configurator.constraint_sale_order_line_accountable_required_fields
 msgid "Missing required fields on accountable sale order line."
+msgstr "Hesap verilebilir satış siparişi satırında gerekli alanlar eksik."
+
+#. module: sale_variant_configurator
+#: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__price_extra
+msgid "Price Extra"
+msgstr "Ekstra Fiyat"
+
+#. module: sale_variant_configurator
+#: model:ir.model.fields,help:sale_variant_configurator.field_sale_order_line__price_extra
+msgid ""
+"Price Extra: Extra price for the variant with the currently selected "
+"attributes values on sale price. eg. 200 price extra, 1000 + 200 = 1200."
 msgstr ""
+"Ekstra Fiyat: Satış fiyatı üzerinde o anda seçili olan özellik değerlerine "
+"sahip varyant için ekstra fiyat. örn. 200 fiyat ekstra, 1000 + 200 = 1200."
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_id
 msgid "Product"
-msgstr ""
+msgstr "Ürün"
+
+#. module: sale_variant_configurator
+#: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_id_configurator_domain
+msgid "Product Id Configurator Domain"
+msgstr "Ürün Kimliği Yapılandırıcı Etki Alanı"
 
 #. module: sale_variant_configurator
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_order_form
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_order_line_tree
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_sales_order_line_filter
 msgid "Product Template"
-msgstr ""
+msgstr "Ürün Şablonu"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_tmpl_id
 msgid "Product Template (no related)"
-msgstr ""
+msgstr "Ürün Şablonu"
+
+#. module: sale_variant_configurator
+#: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_attribute_ids
+msgid "Product attributes"
+msgstr "Ürün özellikleri"
 
 #. module: sale_variant_configurator
 #: model:ir.model,name:sale_variant_configurator.model_sale_order
 msgid "Sales Order"
-msgstr ""
+msgstr "Satış Siparişi"
 
 #. module: sale_variant_configurator
 #: model:ir.model,name:sale_variant_configurator.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Satış Siparişi Hattı"
+msgstr "Satış Sipariş Satırı"
 
 #. module: sale_variant_configurator
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_sales_order_line_filter

@@ -18,73 +18,73 @@ msgstr ""
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__can_create_product
 msgid "Can Create Product"
-msgstr ""
+msgstr "製品の作成"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__create_product_variant
 msgid "Create product now!"
-msgstr ""
+msgstr "今すぐ製品を作成"
 
 #. module: sale_variant_configurator
 #: model:ir.model.constraint,message:sale_variant_configurator.constraint_sale_order_line_non_accountable_null_fields
 msgid "Forbidden values on non-accountable sale order line"
-msgstr ""
+msgstr "非会計販売注文行の禁止値"
 
 #. module: sale_variant_configurator
 #: model:ir.model.constraint,message:sale_variant_configurator.constraint_sale_order_line_accountable_required_fields
 msgid "Missing required fields on accountable sale order line."
-msgstr ""
+msgstr "会計可能な販売注文の行に必須フィールドがありません。"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__price_extra
 msgid "Price Extra"
-msgstr ""
+msgstr "価格"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,help:sale_variant_configurator.field_sale_order_line__price_extra
 msgid ""
 "Price Extra: Extra price for the variant with the currently selected "
 "attributes values on sale price. eg. 200 price extra, 1000 + 200 = 1200."
-msgstr ""
+msgstr "追加価格：現在選択されている属性値を持つバリアントの追加価格。"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_id
 msgid "Product"
-msgstr ""
+msgstr "プロダクト"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_id_configurator_domain
 msgid "Product Id Configurator Domain"
-msgstr ""
+msgstr "製品IDコンフィギュレータドメイン"
 
 #. module: sale_variant_configurator
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_order_form
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_order_line_tree
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_sales_order_line_filter
 msgid "Product Template"
-msgstr ""
+msgstr "製品テンプレート"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_tmpl_id
 msgid "Product Template (no related)"
-msgstr ""
+msgstr "製品テンプレート（関連なし）"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_attribute_ids
 msgid "Product attributes"
-msgstr ""
+msgstr "製品属性"
 
 #. module: sale_variant_configurator
 #: model:ir.model,name:sale_variant_configurator.model_sale_order
 msgid "Sales Order"
-msgstr ""
+msgstr "販売オーダ"
 
 #. module: sale_variant_configurator
 #: model:ir.model,name:sale_variant_configurator.model_sale_order_line
 msgid "Sales Order Line"
-msgstr ""
+msgstr "販売オーダ明細"
 
 #. module: sale_variant_configurator
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_sales_order_line_filter
 msgid "Template"
-msgstr ""
+msgstr "テンプレート"

@@ -1,33 +1,30 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * product_variant_default_code
+# 	* product_variant_default_code
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-23 03:56+0000\n"
-"PO-Revision-Date: 2017-12-23 03:56+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: German (https://www.transifex.com/oca/teams/23907/de/)\n"
-"Language: de\n"
+"POT-Creation-Date: 2025-02-14 19:20+0000\n"
+"PO-Revision-Date: 2025-02-14 19:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: \n"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,help:product_variant_default_code.field_product_product__code_prefix
 #: model:ir.model.fields,help:product_variant_default_code.field_product_template__code_prefix
 msgid "Add prefix to product variant reference (default code)"
-msgstr ""
+msgstr "Präfix zur Produktvariantenreferenz hinzufügen (Standardcode)"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_attribute__code
 msgid "Attribute Code"
-msgstr ""
+msgstr "Attribut Code"
 
 #. module: product_variant_default_code
 #. odoo-python
@@ -35,22 +32,22 @@ msgstr ""
 #: model:ir.model.constraint,message:product_variant_default_code.constraint_product_attribute_number_uniq
 #, python-format
 msgid "Attribute Name must be unique!"
-msgstr ""
+msgstr "Das Attribut Name muss eindeutig sein!"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_attribute_value
 msgid "Attribute Value"
-msgstr ""
+msgstr "Attributwert"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_attribute_value__code
 msgid "Attribute Value Code"
-msgstr ""
+msgstr "Attribut Wert Code"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "Konfigurationseinstellungen"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.view_general_configuration
@@ -59,6 +56,9 @@ msgid ""
 "                                Check this if you want to use Manual Mask.\n"
 "                                Default: Automask"
 msgstr ""
+"Legt fest, wie Sie die Standardvariante verwalten möchten.\n"
+"                                Aktivieren Sie diese Option, wenn Sie die manuelle Maske verwenden möchten.\n"
+"                                Standard: Automaske"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.view_general_configuration
@@ -66,52 +66,53 @@ msgid ""
 "Defines the variant \"Reference Prefix\" as the default reference "
 "(default_code) of the variant."
 msgstr ""
+"Definiert die Variante \"Referenzpräfix\" als Standardreferenz "
+"(default_code) der Variante."
 
 #. module: product_variant_default_code
 #. odoo-python
 #: code:addons/product_variant_default_code/models/product.py:0
 #, python-format
 msgid "Found unrecognized attribute name in \"Variant Reference Mask\""
-msgstr ""
+msgstr "Nicht erkannter Attributname in \"Variant Reference Mask\" gefunden"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__default_code
 msgid "Internal Reference"
-msgstr ""
+msgstr "Interne Referenz"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__manual_code
 msgid "Manual Reference"
-msgstr ""
+msgstr "Handbuch Referenz"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_template
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_attribute
 msgid "Product Attribute"
-msgstr ""
+msgstr "Produktattribut"
 
 #. module: product_variant_default_code
 #: model:res.groups,name:product_variant_default_code.group_product_default_code_manual_mask
 msgid "Product Default Code Behavior"
-msgstr ""
+msgstr "Produkt-Standardcode-Verhalten"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_res_config_settings__group_product_default_code_manual_mask
 msgid "Product Default Code Manual Mask"
-msgstr ""
+msgstr "Produkt Standardcode Handbuch Maske"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_product
 msgid "Product Variant"
-msgstr ""
+msgstr "Produktvariante"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.view_general_configuration
-#, fuzzy
 msgid "Product Variants"
 msgstr "Produktvorlage"
 
@@ -119,58 +120,63 @@ msgstr "Produktvorlage"
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__code_prefix
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_template__code_prefix
 msgid "Reference Prefix"
-msgstr ""
+msgstr "Referenz-Präfix"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_res_config_settings__prefix_as_default_code
 msgid "Reference Prefix as default Reference"
-msgstr ""
+msgstr "Referenz-Präfix als Standard-Referenz"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,help:product_variant_default_code.field_product_product__reference_mask
 #: model:ir.model.fields,help:product_variant_default_code.field_product_template__reference_mask
 msgid ""
-"Reference mask for building internal references of a variant generated from "
-"this template.\n"
+"Reference mask for building internal references of a variant generated from this template.\n"
 "Example:\n"
 "A product named ABC with 2 attributes: Size and Color:\n"
 "Product: ABC\n"
-"Color: Red(r), Yellow(y), Black(b)  #Red, Yellow, Black are the attribute "
-"value, `r`, `y`, `b` are the corresponding code\n"
+"Color: Red(r), Yellow(y), Black(b)  #Red, Yellow, Black are the attribute value, `r`, `y`, `b` are the corresponding code\n"
 "Size: L (l), XL(x)\n"
-"When setting Variant reference mask to `[Color]-[Size]`, the default code on "
-"the variants will be something like `r-l` `b-l` `r-x` ...\n"
-"If you like, You can even have the attribute name appear more than once in "
-"the mask. Such as,`fancyA/[Size]~[Color]~[Size]`\n"
+"When setting Variant reference mask to `[Color]-[Size]`, the default code on the variants will be something like `r-l` `b-l` `r-x` ...\n"
+"If you like, You can even have the attribute name appear more than once in the mask. Such as,`fancyA/[Size]~[Color]~[Size]`\n"
 " When saved, the default code on variants will be something like \n"
-" `fancyA/l~r~l` (for variant with Color \"Red\" and Size \"L\")  `fancyA/"
-"x~y~x` (for variant with Color \"Yellow\" and Size \"XL\")\n"
+" `fancyA/l~r~l` (for variant with Color \"Red\" and Size \"L\")  `fancyA/x~y~x` (for variant with Color \"Yellow\" and Size \"XL\")\n"
 "Note: make sure characters \"[,]\" do not appear in your attribute name"
 msgstr ""
+"Referenzmaske zur Erstellung interner Referenzen einer aus dieser Vorlage generierten Variante.\n"
+"Beispiel:\n"
+"Ein Produkt namens ABC mit 2 Attributen: Größe und Farbe:\n"
+"Produkt: ABC\n"
+"Farbe: Rot(r), Gelb(y), Schwarz(b) #Rot, Gelb, Schwarz sind die Attributwerte, `r`, `y`, `b` sind die entsprechenden Codes\n"
+"Größe: L (l), XL(x)\n"
+"Wenn Sie die Referenzmaske für die Variante auf `[Farbe]-[Größe]` setzen, wird der Standardcode für die Varianten etwa so aussehen: `r-l` `b-l` `r-x` ...\n"
+"Wenn Sie möchten, können Sie den Attributnamen sogar mehrmals in der Maske erscheinen lassen. Zum Beispiel: `fancyA/[Größe]~[Farbe]~[Größe]`\n"
+" Nach dem Speichern wird der Standardcode für Varianten etwa so aussehen \n"
+" `fancyA/l~r~l` (für Variante mit Farbe \"Rot\" und Größe \"L\") `fancyA/x~y~x` (für Variante mit Farbe \"Gelb\" und Größe \"XL\")\n"
+"Hinweis: Stellen Sie sicher, dass die Zeichen \"[,]\" nicht in Ihrem Attributnamen vorkommen."
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,help:product_variant_default_code.field_res_config_settings__group_product_default_code_manual_mask
 msgid ""
-"Set behaviour of codes. Default: Automask (depends on variant use: see Sales/"
-"Purchases configuration)"
+"Set behaviour of codes. Default: Automask (depends on variant use: see "
+"Sales/Purchases configuration)"
 msgstr ""
+"Verhalten der Codes einstellen. Standard: Automaske (hängt von der "
+"Verwendung der Variante ab: siehe Konfiguration Verkauf/Einkauf)"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__variant_default_code_error
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_template__variant_default_code_error
 msgid "Variant Default Code Error"
-msgstr ""
+msgstr "Variante Standard Code Fehler"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__reference_mask
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_template__reference_mask
 msgid "Variant reference mask"
-msgstr ""
+msgstr "Variante Referenzmaske"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.product_template_only_form_view
 msgid "[attribute3]-[attribute1]"
-msgstr ""
-
-#~ msgid "Product Template"
-#~ msgstr "Produktvorlage"
+msgstr "[attribute3]-[attribute1]"

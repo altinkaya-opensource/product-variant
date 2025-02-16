@@ -19,13 +19,12 @@ msgstr ""
 #: model:ir.model.fields,help:product_variant_default_code.field_product_product__code_prefix
 #: model:ir.model.fields,help:product_variant_default_code.field_product_template__code_prefix
 msgid "Add prefix to product variant reference (default code)"
-msgstr ""
-"Ajouter un préfixe à la référence de la variante de produit (default code)"
+msgstr "为产品变体参考添加前缀（默认代码）"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_attribute__code
 msgid "Attribute Code"
-msgstr "Code de l'attribut"
+msgstr "属性代码"
 
 #. module: product_variant_default_code
 #. odoo-python
@@ -33,22 +32,22 @@ msgstr "Code de l'attribut"
 #: model:ir.model.constraint,message:product_variant_default_code.constraint_product_attribute_number_uniq
 #, python-format
 msgid "Attribute Name must be unique!"
-msgstr "Le nom de l'attribut doit être unique !"
+msgstr "属性名称必须唯一！"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_attribute_value
 msgid "Attribute Value"
-msgstr "Valeur de la caractéristique"
+msgstr "属性值"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_attribute_value__code
 msgid "Attribute Value Code"
-msgstr "Code valeur de l'attribut"
+msgstr "属性值代码"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_res_config_settings
 msgid "Config Settings"
-msgstr "Paramètres de regroupement des achats"
+msgstr "配置设置"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.view_general_configuration
@@ -57,78 +56,74 @@ msgid ""
 "                                Check this if you want to use Manual Mask.\n"
 "                                Default: Automask"
 msgstr ""
-"Définit la manière dont vous souhaitez gérer la variante par défaut.\n"
-"                                Cochez cette case si vous souhaitez utiliser le masque manuel.\n"
-"                                Défaut : Masque automatique"
+"定义管理变量默认值的方式。\n"
+"                                如果要使用手动掩码，请选中此项。\n"
+"                                默认：自动屏蔽"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.view_general_configuration
 msgid ""
 "Defines the variant \"Reference Prefix\" as the default reference "
 "(default_code) of the variant."
-msgstr ""
-"Définit la variante \"Reference Prefix\" comme la référence par défaut "
-"(default_code) de la variante."
+msgstr "将变量 \"参考前缀 \"定义为变量的默认参考（default_code）。"
 
 #. module: product_variant_default_code
 #. odoo-python
 #: code:addons/product_variant_default_code/models/product.py:0
 #, python-format
 msgid "Found unrecognized attribute name in \"Variant Reference Mask\""
-msgstr ""
-"Nom d'attribut non reconnu trouvé dans \"Masque de référence de la "
-"variante\""
+msgstr "在 \"变量参考掩码 \"中发现未识别的属性名称"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__default_code
 msgid "Internal Reference"
-msgstr "Référence interne"
+msgstr "内部参考"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__manual_code
 msgid "Manual Reference"
-msgstr "Référence manuelle"
+msgstr "手册参考"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_template
 msgid "Product"
-msgstr "Produit"
+msgstr "产品"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_attribute
 msgid "Product Attribute"
-msgstr "Attribut de l'article"
+msgstr "产品属性"
 
 #. module: product_variant_default_code
 #: model:res.groups,name:product_variant_default_code.group_product_default_code_manual_mask
 msgid "Product Default Code Behavior"
-msgstr "Comportement du code par défaut du produit"
+msgstr "产品默认代码行为"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_res_config_settings__group_product_default_code_manual_mask
 msgid "Product Default Code Manual Mask"
-msgstr "Produit Code par défaut Masque manuel"
+msgstr "产品默认代码 手动掩码"
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_product
 msgid "Product Variant"
-msgstr "Variante de produit"
+msgstr "产品种类"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.view_general_configuration
 msgid "Product Variants"
-msgstr "Attribut de l'article"
+msgstr "产品型号"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__code_prefix
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_template__code_prefix
 msgid "Reference Prefix"
-msgstr "Préfixe de la référence"
+msgstr "参考前缀"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_res_config_settings__prefix_as_default_code
 msgid "Reference Prefix as default Reference"
-msgstr "Préfixe de référence comme référence par défaut"
+msgstr "作为默认参考的参考前缀"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,help:product_variant_default_code.field_product_product__reference_mask
@@ -146,40 +141,38 @@ msgid ""
 " `fancyA/l~r~l` (for variant with Color \"Red\" and Size \"L\")  `fancyA/x~y~x` (for variant with Color \"Yellow\" and Size \"XL\")\n"
 "Note: make sure characters \"[,]\" do not appear in your attribute name"
 msgstr ""
-"Masque de référence pour construire les références internes des variantes génénées depuis ce modèle.\n"
-"Exemple:\n"
-"Un produit nommé ABC avec 2 attributs : Taille et Couleur :\n"
-"Produit: ABC\n"
-"Couleur: Rouge(r), Jaune(j), Noir(n)  #Rouge, Jaune, Noir sont les valeurs d'attributes, `r`, `j`, `n` sont les codes correspondants\n"
-"Taille: L (l), XL(x)\n"
-"Quand vous mettez en place un masque de référence de la variante `[Couleur]-[Taille]`, le code par défaut de la variante sera quelque chose comme `r-l` `n-l` `r-x` ...\n"
-"Si vous préférez, vous pouvez aussi avoir le nom de l'attribut qui apparait plusieurs fois dans le masque. Comme,`fancyA/[Taille]~[Couleur]~[Taille]`\n"
-" Quand il est enregistré, le code par défaut sur la variante sera quelque chose comme \n"
-" `fancyA/l~r~l` (pour la variante avec Couleur \"Rouge\" et Taille \"L\")  `fancyA/x~y~x` (pour la variante avec Couleur \"Jaune\" et Taille\"XL\")\n"
-"Note : assurez-vous que les caractères \"[,]\" n'apparaissent pas dans le nom de l'attribut"
+"参考掩码用于为本模板生成的变体建立内部参考。\n"
+"举例说明：\n"
+"一个名为 ABC 的产品有 2 个属性：尺寸和颜色：\n"
+"产品：ABC\n"
+"颜色：Red(r), Yellow(y), Black(b) #Red、Yellow、Black 是属性值，`r`、`y`、`b` 是相应的代码\n"
+"尺寸：L (l)、XL(x)\n"
+"将变体引用掩码设置为\"[颜色]-[尺寸]\"时，变体上的默认代码将类似于 `r-l``b-l``r-x` ...\n"
+"如果您愿意，甚至可以让属性名称在掩码中出现多次。例如，`fancyA/[尺寸]~[颜色]~[尺寸]`。\n"
+" 保存后，变体的默认代码将类似于 \n"
+" fancyA/l~r~l`（表示颜色为 \"红色\"、尺寸为 \"L \"的变体） `fancyA/x~y~x`（表示颜色为 \"黄色\"、尺寸为 \"XL \"的变体）\n"
+"注意：确保属性名称中不出现字符\"[,]\"。"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,help:product_variant_default_code.field_res_config_settings__group_product_default_code_manual_mask
 msgid ""
 "Set behaviour of codes. Default: Automask (depends on variant use: see "
 "Sales/Purchases configuration)"
-msgstr ""
-"Définir le comportement des codes. Par défaut : Automask (dépend de "
-"l'utilisation de la variante : voir la configuration Ventes/Achats)"
+msgstr "设置代码行为。默认：自动屏蔽（取决于变量用途：参见销售/采购配置）"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__variant_default_code_error
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_template__variant_default_code_error
 msgid "Variant Default Code Error"
-msgstr "Variante Code Défaut Erreur"
+msgstr "变体默认代码错误"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__reference_mask
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_template__reference_mask
 msgid "Variant reference mask"
-msgstr "Masque de référence de la variante"
+msgstr "变体参考掩码"
 
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.product_template_only_form_view
 msgid "[attribute3]-[attribute1]"
-msgstr "[attribut3]-[attribut1]"
+msgstr "[属性3]-[属性1］"

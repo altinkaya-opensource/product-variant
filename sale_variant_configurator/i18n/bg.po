@@ -18,27 +18,28 @@ msgstr ""
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__can_create_product
 msgid "Can Create Product"
-msgstr ""
+msgstr "Може да създава продукти"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__create_product_variant
 msgid "Create product now!"
-msgstr ""
+msgstr "Създайте продукт сега!"
 
 #. module: sale_variant_configurator
 #: model:ir.model.constraint,message:sale_variant_configurator.constraint_sale_order_line_non_accountable_null_fields
 msgid "Forbidden values on non-accountable sale order line"
-msgstr ""
+msgstr "Забранени стойности на реда за неотчитане на поръчки за продажба"
 
 #. module: sale_variant_configurator
 #: model:ir.model.constraint,message:sale_variant_configurator.constraint_sale_order_line_accountable_required_fields
 msgid "Missing required fields on accountable sale order line."
 msgstr ""
+"Липсват задължителни полета на реда за счетоводна поръчка за продажба."
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__price_extra
 msgid "Price Extra"
-msgstr ""
+msgstr "Допълнителна цена"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,help:sale_variant_configurator.field_sale_order_line__price_extra
@@ -46,45 +47,48 @@ msgid ""
 "Price Extra: Extra price for the variant with the currently selected "
 "attributes values on sale price. eg. 200 price extra, 1000 + 200 = 1200."
 msgstr ""
+"Допълнителна цена: Допълнителна цена за варианта с текущо избраните "
+"стойности на атрибутите на продажната цена. напр. 200 цена допълнително, "
+"1000 + 200 = 1200."
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_id
 msgid "Product"
-msgstr ""
+msgstr "Продукт"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_id_configurator_domain
 msgid "Product Id Configurator Domain"
-msgstr ""
+msgstr "Идентификатор на продукта Конфигуратор на домейн"
 
 #. module: sale_variant_configurator
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_order_form
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_order_line_tree
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_sales_order_line_filter
 msgid "Product Template"
-msgstr ""
+msgstr "Шаблон на продукта"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_tmpl_id
 msgid "Product Template (no related)"
-msgstr ""
+msgstr "Шаблон на продукт (няма свързани)"
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_attribute_ids
 msgid "Product attributes"
-msgstr ""
+msgstr "Атрибути на продукта"
 
 #. module: sale_variant_configurator
 #: model:ir.model,name:sale_variant_configurator.model_sale_order
 msgid "Sales Order"
-msgstr ""
+msgstr "Поръчка"
 
 #. module: sale_variant_configurator
 #: model:ir.model,name:sale_variant_configurator.model_sale_order_line
 msgid "Sales Order Line"
-msgstr ""
+msgstr "Ред на поръчка за продажби"
 
 #. module: sale_variant_configurator
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_sales_order_line_filter
 msgid "Template"
-msgstr ""
+msgstr "Шаблон"
