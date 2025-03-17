@@ -275,6 +275,18 @@ class ProductConfigurator(models.AbstractModel):
             self.product_tmpl_id,
             self.product_attribute_ids,
         )
+
+        tmpl_id = self.product_tmpl_id
+
+        if tmpl_id and tmpl_id.no_create_variants in ("yes", "empty") and not product:
+            raise exceptions.UserError(
+                _(
+                    "This product has no variant with"
+                    " these attributes. You need to create"
+                    f" a product:\n{self.name}"
+                )
+            )
+
         if not product:
             product_template_attribute_values = self.env[
                 "product.template.attribute.value"
@@ -301,6 +313,8 @@ class ProductConfigurator(models.AbstractModel):
                     "product_template_attribute_value_ids": [
                         (6, 0, product_template_attribute_values.ids)
                     ],
+                    "categ_ids": [(6, 0, [123])],
+                    # 123: automatically created variants category id
                 }
             )
         self.product_id = product.id
