@@ -50,7 +50,7 @@ class ProductConfiguratorAttribute(models.Model):
             # Uzunluk niteliği olan ürünlerde attribute filtrelemesi yapmak istemiyoruz.
 
             if attribute.attribute_id.id == 28:
-                record.possible_value_ids |= attribute.attribute_id.value_id
+                record.possible_value_ids |= attribute.attribute_id.value_ids
 
     @api.depends("value_id")
     def _compute_price_extra(self):
