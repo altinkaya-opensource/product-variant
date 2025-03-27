@@ -52,8 +52,8 @@ class ProductTemplate(models.Model):
         string="Variant reference mask",
         copy=False,
         store=True,
-        compute="_compute_reference_mask",
-        inverse="_inverse_reference_mask",
+        # compute="_compute_reference_mask",
+        # inverse="_inverse_reference_mask",
         help="Reference mask for building internal references of a "
         "variant generated from this template.\n"
         "Example:\n"
@@ -111,27 +111,27 @@ class ProductTemplate(models.Model):
                 error_txt = "Default Code can not be computed.\n" + error_txt
             rec.variant_default_code_error = error_txt or False
 
-    @api.depends(
-        "code_prefix",
-        "attribute_line_ids",
-        "attribute_line_ids.attribute_id.name",
-    )
-    def _compute_reference_mask(self):
-        automask = self.is_automask()
-        for rec in self:
-            if rec.default_code and not rec.code_prefix:
-                rec.code_prefix = rec.default_code
-            if automask or not rec.reference_mask:
-                rec.reference_mask = rec._get_default_mask()
-            elif (
-                not automask
-                and rec.code_prefix
-                and rec.code_prefix not in rec.reference_mask
-            ):
-                rec.reference_mask = rec.code_prefix + rec.reference_mask
+    # @api.depends(
+    #     "code_prefix",
+    #     "attribute_line_ids",
+    #     "attribute_line_ids.attribute_id.name",
+    # )
+    # def _compute_reference_mask(self):
+    #     automask = self.is_automask()
+    #     for rec in self:
+    #         if rec.default_code and not rec.code_prefix:
+    #             rec.code_prefix = rec.default_code
+    #         if automask or not rec.reference_mask:
+    #             rec.reference_mask = rec._get_default_mask()
+    #         elif (
+    #             not automask
+    #             and rec.code_prefix
+    #             and rec.code_prefix not in rec.reference_mask
+    #         ):
+    #             rec.reference_mask = rec.code_prefix + rec.reference_mask
 
-    def _inverse_reference_mask(self):
-        self._compute_reference_mask()
+    # def _inverse_reference_mask(self):
+    #     self._compute_reference_mask()
 
     def _get_default_mask(self):
         attribute_names = []
@@ -200,22 +200,22 @@ class ProductProduct(models.Model):
 
     manual_code = fields.Boolean(string="Manual Reference", default=False)
     default_code = fields.Char(
-        compute="_compute_default_code",
-        inverse="_inverse_default_code",
+        # compute="_compute_default_code",
+        # inverse="_inverse_default_code",
         readonly=False,
         store=True,
     )
 
-    @api.depends(
-        "product_tmpl_id.reference_mask",
-        "product_template_attribute_value_ids.attribute_id.code",
-        "product_template_attribute_value_ids.product_attribute_value_id.code",
-    )
-    def _compute_default_code(self):
-        self.env.cr.flush()  # https://github.com/odoo/odoo/blob/16.0/odoo/models.py#L5592
-        for rec in self:
-            if not rec.manual_code:
-                rec.default_code = rec._generate_default_code()
+    # @api.depends(
+    #     "product_tmpl_id.reference_mask",
+    #     "product_template_attribute_value_ids.attribute_id.code",
+    #     "product_template_attribute_value_ids.product_attribute_value_id.code",
+    # )
+    # def _compute_default_code(self):
+    #     self.env.cr.flush()  # https://github.com/odoo/odoo/blob/16.0/odoo/models.py#L5592
+    #     for rec in self:
+    #         if not rec.manual_code:
+    #             rec.default_code = rec._generate_default_code()
 
     def _inverse_default_code(self):
         for rec in self:
