@@ -200,22 +200,22 @@ class ProductProduct(models.Model):
 
     manual_code = fields.Boolean(string="Manual Reference", default=False)
     default_code = fields.Char(
-        # compute="_compute_default_code",
-        # inverse="_inverse_default_code",
+        compute="_compute_default_code",
+        inverse="_inverse_default_code",
         readonly=False,
         store=True,
     )
 
-    # @api.depends(
-    #     "product_tmpl_id.reference_mask",
-    #     "product_template_attribute_value_ids.attribute_id.code",
-    #     "product_template_attribute_value_ids.product_attribute_value_id.code",
-    # )
-    # def _compute_default_code(self):
-    #     self.env.cr.flush()  # https://github.com/odoo/odoo/blob/16.0/odoo/models.py#L5592
-    #     for rec in self:
-    #         if not rec.manual_code:
-    #             rec.default_code = rec._generate_default_code()
+    @api.depends(
+        "product_tmpl_id.reference_mask",
+        "product_template_attribute_value_ids.attribute_id.code",
+        "product_template_attribute_value_ids.product_attribute_value_id.code",
+    )
+    def _compute_default_code(self):
+        self.env.cr.flush()  # https://github.com/odoo/odoo/blob/16.0/odoo/models.py#L5592
+        for rec in self:
+            if not rec.manual_code:
+                rec.default_code = rec._generate_default_code()
 
     def _inverse_default_code(self):
         for rec in self:
