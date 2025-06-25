@@ -238,8 +238,11 @@ class ProductProduct(models.Model):
                     product_attrs[attr_name] += value.attribute_id.code
                 if value.code:
                     product_attrs[attr_name] += value.code
-            default_code = reference_mask.safe_substitute(product_attrs)
-            return default_code
+            if product_attrs:
+                default_code = reference_mask.safe_substitute(product_attrs)
+                return default_code
+            else:
+                return self.default_code or ""
 
 
 class ProductAttribute(models.Model):
