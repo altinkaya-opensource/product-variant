@@ -211,7 +211,7 @@ class ProductProduct(models.Model):
     @api.depends(
         "product_tmpl_id.reference_mask",
         "product_template_attribute_value_ids.attribute_id.code",
-        "product_template_attribute_value_ids.product_attribute_value_id.code",
+        # "product_template_attribute_value_ids.product_attribute_value_id.code",
     )
     def _compute_default_code(self):
         self.env.cr.flush()  # https://github.com/odoo/odoo/blob/16.0/odoo/models.py#L5592
